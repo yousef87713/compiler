@@ -15,6 +15,8 @@ import org.antlr.v4.runtime.CharStreams;
  */
 public class Main {
 
+
+
     public static void main(String[] args) throws IOException {
         if (args.length < 1) {
             System.err.println("Usage: java -jar js-lexer.jar <file.js> [-o output.txt]");
